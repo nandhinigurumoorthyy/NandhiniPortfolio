@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, sans-serif;
+  background: #000;
+  color: #fff;
+  font-optical-sizing: auto;
+  scroll-behaviour: smooth;
+}
+
+#work,
+#about,
+#experience,
+#contact {
+  scroll-margin-top: 80px;
+}
+
+.bg-image {
+  background-image: url("./assets/teddy.jpg");
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
