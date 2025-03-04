@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.headline-2{
+  background: -webkit-linear-gradient(0deg, #fafafa, #c9c9dd);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color : transparent;
+}

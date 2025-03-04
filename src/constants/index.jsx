@@ -1,8 +1,13 @@
-import teddy from "../assets/teddy.jpg";
+import restaurant from "../assets/restaurant.jpg";
+import landingPage from "../assets/landing_page.jpg";
+import calc from "../assets/income_calc.jpg";
+import movie from "../assets/movie.jpg";
+import backend from "../assets/backend.jpg";
+import shop from "../assets/shop.jpg";
 
 export const LINKS = [
-  { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
+  { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#contact", label: "Contact" },
 ];
@@ -10,97 +15,95 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Jason Root, a creative frontend developer, crafting immersive and intuitive web experiences.",
-  description:
-    "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
+    "I'm Nandhini, an ambitious Full Stack Developer passionate about creating scalable and user-friendly web applications.",
+  description: "A portfolio of my full-stack projects, demonstrating my skills in developing dynamic and efficient web applications. 🚀",
   resumeLinkText: "Download Resume",
   resumeLink: "/resume.pdf",
 };
 
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
-    image: teddy,
-    link: "https://github.com/your-github/streamerzz",
+    name: "Online Restaurant Booking",
+    description: "A full-stack Restaurant Booking System that enables users to browse restaurants, make reservations, and manage bookings with React, Tailwind CSS, Node.js, and MongoDB.",
+    image: restaurant,
+    link: "https://github.com/nandhinigurumoorthyy/Restaurant_Reservation_backend.git",
+    demo: "https://restaurant-reservation-ui.netlify.app/"
   },
   {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
-    image: teddy,
-    link: "https://github.com/your-github/nutritrack",
+    name: "Landing Page",
+    description: "Premium Web Hosting Landing Page – HTML, Tailwind CSS.",
+    image: landingPage,
+    link: "https://github.com/nandhinigurumoorthyy/GUVI_Task_TailwindCSS_Landing_Page.git",
+    demo: "https://nandhinigguviliveprojecttask.netlify.app/"
   },
   {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
-    image: teddy,
-    link: "https://github.com/your-github/hairrevive",
+    name: "Income-Expense Calculator",
+    description: "An Income-Expense Calculator that allows users to track their finances, store data using MockAPI, and manage transactions with JavaScript, HTML, and CSS.",
+    image: calc,
+    link: "https://github.com/nandhinigurumoorthyy/GUVI-Nandhini-Income-Expense-calculator.git",
+    demo: "https://nandhini-income-expense-calc-guvitask.netlify.app/"
   },
   {
-    name: "DevDeck",
+    name: "Movie Search App",
     description:
-      "Interactive dashboard for developers to track coding activity",
-    image: teddy,
-    link: "https://github.com/your-github/devdeck",
+      "A Movie Search App that lets users find movies by title, view details, and navigate results using React, React Router, Axios, Tailwind CSS, and the OMDb API.",
+    image: movie,
+    link: "https://github.com/nandhinigurumoorthyy/Nandhini-Movies-Search-App.git",
+    demo: "https://nandhini-movies-search-app.netlify.app/"
   },
   {
-    name: "FitConnect",
-    description: "Fitness social network to connect athletes and trainers",
-    image: teddy,
-    link: "https://github.com/your-github/fitconnect",
+    name: "Password Reset System",
+    description: "Secure Password Reset System that enables users to reset their passwords via email verification, built with Node.js, Express.js, and MongoDB.",
+    image: backend,
+    link: "https://github.com/nandhinigurumoorthyy/Password-reset-flow-client.git",
+    demo: "https://password-reset-flow-client-ui.netlify.app/"
   },
   {
-    name: "WellNest",
-    description: "A wellness app for mental and physical health improvement",
-    image: teddy,
-    link: "https://github.com/your-github/wellnest",
-  },
+    name: "Online Shopping App",
+    description: "React Router-based Shopping App that enables users to add products to the cart, view total price, and manage their purchases seamlessly.",
+    image: shop,
+    link: "https://github.com/nandhinigurumoorthyy/Nandhini-React-Router-App-GuviTask.git",
+    demo: "https://nandhini-react-router-app-guvitask.netlify.app/"
+  }
 ];
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from single-page applications to complex multi-tiered systems, always ensuring high performance and seamless user experiences.",
-    "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
-  ],
+    "I am a futuristic Full Stack Developer dedicated to building dynamic, high-performance web applications. Skilled in React, Node.js, MongoDB, and Express.js, I focus on creating seamless user experiences and robust back-end solutions.",
+    "Driven by curiosity and innovation, I constantly explore new technologies to enhance my skills. I thrive on solving complex challenges and writing clean, efficient code, eager to contribute to impactful projects in the ever-evolving world of web development."],
 };
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 — Now",
-    title: "Senior Frontend Engineer at TechCorp",
-    location: "Paris, France",
+    yearRange: "Aug 2024 — Feb 2025",
+    title: "Trainee Software Engineer at StringServe Technology",
+    location: "Chennai",
     description: [
-      "Leading the development of scalable frontend architecture for enterprise-level applications.",
-      "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-      "Driving innovation through continuous improvements in performance and UI/UX design.",
+      "Built and maintained interactive user interfaces.",
+      "Improved front-end performance to ensure a smooth and responsive user experience.",
+      "Worked closely with the team to develop UI components, resolve issues, and refine application design."
     ],
   },
 ];
 
 export const CONTACT_CONTENT = {
-  headline: "LET'S WORK ON SOMETHING GREAT",
+  headline: "LET'S CREATE SOMETHING AMAZING",
   description:
-    "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "jason@example.com",
+    "I’m eager to collaborate on innovative projects that make a difference. Let’s build, innovate, and push boundaries together. Let’s turn ideas into reality!",
+  email: "nandhinigurumoorthy2003@gmail.com",
   socialLinks: [
     {
-      platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
-      ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
-    },
-    {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/nandhinigurumoorthyy",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/nandhini-g-65b7202bb/",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} Nandhini G. All rights reserved.`,
 };

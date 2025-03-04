@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { clipPath } from "framer-motion/client";
 import { HERO_CONTENT } from "../constants";
-import profile from "../assets/teddy.jpg";
+import profile from "../assets/3.jpg";
 
 const textVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -79,7 +79,7 @@ const Hero = () => {
             <img
               src={profile}
               alt="Profile"
-              width={650}
+              width={400}
               height={650}
               className="rounded-3xl"
             />

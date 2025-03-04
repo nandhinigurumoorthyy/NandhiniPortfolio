@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { CONTACT_CONTENT } from "../constants";
+import { RiGithubFill, RiLinkedinFill } from '@remixicon/react'
 
 const textVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -50,7 +51,7 @@ md:px-10"
       </motion.h3>
 
       <motion.p
-        className="text-lg md:text-2xl mt-6 max-w-3xl"
+        className="text-lg md:text-2xl mt-6"
         initial="hidden"
         whileInView="visible"
         custom={0.6}
@@ -70,31 +71,28 @@ md:px-10"
         {CONTACT_CONTENT.email}
       </motion.a>
 
-      <div className="flex space-x-6 mt-8">
-        {CONTACT_CONTENT.socialLinks.map((link, index) => {
-          const Icon =
-            link.icon === "RiTwitterXFill"
-              ? RiTwitterXFill
-              : link.icon === "RiGithubFill"
-              ? RiGithubFill
-              : RiLinkedinFill;
-          return (
-            <motion.a
-              key={link.platform}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={link.ariaLabel}
-              initial="hidden"
-              whileInView="visible"
-              custom={1.0 + index * 0.2}
-              variants={iconVariants}
-            >
-              <Icon size={36} />
-            </motion.a>
-          );
-        })}
-      </div>
+      <div className="flex space-x-6 mt-8 justify-center">
+  {CONTACT_CONTENT.socialLinks.map((link, index) => {
+    const Icon = link.icon === "RiGithubFill" ? RiGithubFill : RiLinkedinFill;
+
+    return (
+      <motion.a
+        key={link.platform}
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={link.ariaLabel}
+        initial="hidden"
+        whileInView="visible"
+        custom={1.0 + index * 0.2}
+        variants={iconVariants}
+      >
+        <Icon size={36} />
+      </motion.a>
+    );
+  })}
+</div>
+
 
       <motion.p
         className="text-sm text-stone-400 mt-36"

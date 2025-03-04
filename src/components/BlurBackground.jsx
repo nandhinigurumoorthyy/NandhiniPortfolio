@@ -92,12 +92,12 @@ const BlurBackground = () => {
         animate="animate4"
       ></motion.div>
       <motion.div
-        className="bg-blue-500 w-[390px] h-[290px] rounded-full absolute"
+        className="bg-gray-400 w-[390px] h-[290px] rounded-full absolute"
         variants={circleVariants}
         animate="animate5"
       ></motion.div>
       <motion.div
-        className="bg-pink-500 w-[400px] h-[300px] rounded-full absolute"
+        className="bg-blue-500 w-[400px] h-[300px] rounded-full absolute"
         variants={circleVariants}
         animate="animate6"
       ></motion.div>
