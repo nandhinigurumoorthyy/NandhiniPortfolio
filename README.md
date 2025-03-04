@@ -26,7 +26,6 @@ This is my personal portfolio built with **React.js** and **Tailwind CSS**, show
 1. Clone the repository:  
    ```sh  
    git clone https://github.com/nandhinigurumoorthyy/NandhiniPortfolio.git
-   cd NandhiniPortfolio 
    ```  
 2. Install dependencies:  
    ```sh  
