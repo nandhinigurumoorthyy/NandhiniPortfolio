@@ -38,21 +38,21 @@ const Hero = () => {
             variants={containerVariants}
           >
             <motion.h1
-              className="text-2xl md:text-3xl lg:text-5xl my-14"
+              className="text-xl md:text-2xl lg:text-5xl my-14"
               variants={textVariants}
             >
               {HERO_CONTENT.greeting}
             </motion.h1>
 
             <motion.p
-              className="text-xl md:text-2xl lg:text-4xl mb-4"
+              className="text-xl md:text-2xl lg:text-3xl mb-4"
               variants={textVariants}
             >
               {HERO_CONTENT.introduction}
             </motion.p>
 
             <motion.p
-              className="text-xl md:text-2xl lg:text-4xl"
+              className="text-xl md:text-2xl lg:text-3xl"
               variants={textVariants}
             >
               {HERO_CONTENT.description}

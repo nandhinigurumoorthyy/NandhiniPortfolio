@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import BlurBackground from "./components/BlurBackground";
 import NavBar from "./components/NavBar";
@@ -10,8 +9,6 @@ import Contact from "./components/Contact";
 import Skill from "./components/Skill";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <BlurBackground />

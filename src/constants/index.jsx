@@ -16,7 +16,7 @@ export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
     "I'm Nandhini, an ambitious Full Stack Developer passionate about creating scalable and user-friendly web applications.",
-  description: "A portfolio of my full-stack projects, demonstrating my skills in developing dynamic and efficient web applications. 🚀",
+  description: "A portfolio of my full-stack projects, demonstrating my skills in developing dynamic and efficient web applications.",
   resumeLinkText: "Download Resume",
   resumeLink: "/resume.pdf",
 };
