@@ -5,7 +5,7 @@ This is my personal portfolio built with **React.js** and **Tailwind CSS**, show
 
 ## 🌍 Live Demo  
 
-🔗 **[View Portfolio](https://your-deployed-url.com/)** 
+🔗 **[View Portfolio](https://nandhinigportfolio.netlify.app/)** 
 
 ## ✨ Features  
 
