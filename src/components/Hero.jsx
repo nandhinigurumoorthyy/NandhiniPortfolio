@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { clipPath } from "framer-motion/client";
 import { HERO_CONTENT } from "../constants";
-import profile from "../assets/3.jpg";
+import profile from "../assets/1.jpg";
 
 const textVariants = {
   hidden: { opacity: 0, y: 50 },
