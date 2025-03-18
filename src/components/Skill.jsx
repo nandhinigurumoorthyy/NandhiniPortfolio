@@ -7,7 +7,8 @@ import expressIcon from "../assets/expressjs.svg";
 import mongoIcon from "../assets/mongodb.svg";
 import reactIcon from "../assets/react.svg";
 import tailwindIcon from "../assets/tailwindcss.svg";
-
+import colabIcon from "../assets/colab.png";
+import vsIcon from "../assets/vs_code.png";
 
 const skillItem = [
     { imgSrc: htmlIcon, label: "HTML", desc: "Markup language" },
@@ -18,6 +19,8 @@ const skillItem = [
     { imgSrc: mongoIcon, label: "MongoDB", desc: "Database" },
     { imgSrc: reactIcon, label: "React", desc: "Library" },
     { imgSrc: tailwindIcon, label: "TailwindCSS", desc: "Styling Framework" },
+    { imgSrc: vsIcon, label: "VS Code", desc: "Code Editor" },
+    { imgSrc: colabIcon, label: "Google Colab", desc: "Python Notebook" }
 ];
 
 const Skill = () => {

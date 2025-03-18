@@ -26,30 +26,8 @@ export const PROJECTS = [
     name: "Online Restaurant Booking",
     description: "A full-stack Restaurant Booking System that enables users to browse restaurants, make reservations, and manage bookings with React, Tailwind CSS, Node.js, and MongoDB.",
     image: restaurant,
-    link: "https://github.com/nandhinigurumoorthyy/Restaurant_Reservation_backend.git",
+    link: "https://github.com/nandhinigurumoorthyy/Restaurant_Reservation_frontend.git",
     demo: "https://restaurant-reservation-ui.netlify.app/"
-  },
-  {
-    name: "Landing Page",
-    description: "Premium Web Hosting Landing Page – HTML, Tailwind CSS.",
-    image: landingPage,
-    link: "https://github.com/nandhinigurumoorthyy/GUVI_Task_TailwindCSS_Landing_Page.git",
-    demo: "https://nandhinigguviliveprojecttask.netlify.app/"
-  },
-  {
-    name: "Income-Expense Calculator",
-    description: "An Income-Expense Calculator that allows users to track their finances, store data using MockAPI, and manage transactions with JavaScript, HTML, and CSS.",
-    image: calc,
-    link: "https://github.com/nandhinigurumoorthyy/GUVI-Nandhini-Income-Expense-calculator.git",
-    demo: "https://nandhini-income-expense-calc-guvitask.netlify.app/"
-  },
-  {
-    name: "Movie Search App",
-    description:
-      "A Movie Search App that lets users find movies by title, view details, and navigate results using React, React Router, Axios, Tailwind CSS, and the OMDb API.",
-    image: movie,
-    link: "https://github.com/nandhinigurumoorthyy/Nandhini-Movies-Search-App.git",
-    demo: "https://nandhini-movies-search-app.netlify.app/"
   },
   {
     name: "Password Reset System",
@@ -59,12 +37,34 @@ export const PROJECTS = [
     demo: "https://password-reset-flow-client-ui.netlify.app/"
   },
   {
+    name: "Movie Search App",
+    description:
+      "A Movie Search App that lets users find movies by title, view details, and navigate results using React, React Router, Axios, Tailwind CSS, and the OMDb API.",
+    image: movie,
+    link: "https://github.com/nandhinigurumoorthyy/Movies-Search-App.git",
+    demo: "https://movies-search-app-omdb-api.netlify.app/"
+  },
+  {
     name: "Online Shopping App",
     description: "React Router-based Shopping App that enables users to add products to the cart, view total price, and manage their purchases seamlessly.",
     image: shop,
-    link: "https://github.com/nandhinigurumoorthyy/Nandhini-React-Router-App-GuviTask.git",
-    demo: "https://nandhini-react-router-app-guvitask.netlify.app/"
-  }
+    link: "https://github.com/nandhinigurumoorthyy/react-router-online-shopping-app.git",
+    demo: "https://react-router-online-shopping-app.netlify.app/"
+  },
+  {
+    name: "Income-Expense Calculator",
+    description: "An Income-Expense Calculator that allows users to track their finances, store data using MockAPI, and manage transactions with JavaScript, HTML, and CSS.",
+    image: calc,
+    link: "https://github.com/nandhinigurumoorthyy/Income-Expense-Calculator.git",
+    demo: "https://mock-api-income-expense-calc.netlify.app/"
+  },
+  {
+    name: "Landing Page",
+    description: "Premium Web Hosting Landing Page – HTML, Tailwind CSS.",
+    image: landingPage,
+    link: "https://github.com/nandhinigurumoorthyy/TailwindCSS_Landing_Page.git",
+    demo: "https://html-tailwindcss-landing-page.netlify.app/"
+  },
 ];
 
 export const ABOUT_CONTENT = {
