@@ -1,9 +1,8 @@
 import restaurant from "../assets/restaurant.jpg";
-import landingPage from "../assets/landing_page.jpg";
-import calc from "../assets/income_calc.jpg";
 import movie from "../assets/movie.jpg";
 import backend from "../assets/backend.jpg";
-import shop from "../assets/shop.jpg";
+import parlour from "../assets/parlour.PNG";
+
 
 export const LINKS = [
   { href: "#about", label: "About" },
@@ -22,6 +21,13 @@ export const HERO_CONTENT = {
 };
 
 export const PROJECTS = [
+  {
+  name: "Beauty Parlour Services",
+  description: "A modern full-stack beauty services booking platform where users can explore grooming options, add them to cart, and schedule appointments seamlessly using React, Tailwind CSS, Node.js, and MongoDB.",
+  image: parlour, 
+  link: "https://github.com/nandhinigurumoorthyy/Beauty-Services-MERN-Client",
+  demo: "https://glam-on-go-beauty-services-mern-app.netlify.app/"
+},
   {
     name: "Online Restaurant Booking",
     description: "A full-stack Restaurant Booking System that enables users to browse restaurants, make reservations, and manage bookings with React, Tailwind CSS, Node.js, and MongoDB.",
@@ -43,28 +49,7 @@ export const PROJECTS = [
     image: movie,
     link: "https://github.com/nandhinigurumoorthyy/Movies-Search-App.git",
     demo: "https://movies-search-app-omdb-api.netlify.app/"
-  },
-  {
-    name: "Online Shopping App",
-    description: "React Router-based Shopping App that enables users to add products to the cart, view total price, and manage their purchases seamlessly.",
-    image: shop,
-    link: "https://github.com/nandhinigurumoorthyy/react-router-online-shopping-app.git",
-    demo: "https://react-router-online-shopping-app.netlify.app/"
-  },
-  {
-    name: "Income-Expense Calculator",
-    description: "An Income-Expense Calculator that allows users to track their finances, store data using MockAPI, and manage transactions with JavaScript, HTML, and CSS.",
-    image: calc,
-    link: "https://github.com/nandhinigurumoorthyy/Income-Expense-Calculator.git",
-    demo: "https://mock-api-income-expense-calc.netlify.app/"
-  },
-  {
-    name: "Landing Page",
-    description: "Premium Web Hosting Landing Page – HTML, Tailwind CSS.",
-    image: landingPage,
-    link: "https://github.com/nandhinigurumoorthyy/TailwindCSS_Landing_Page.git",
-    demo: "https://html-tailwindcss-landing-page.netlify.app/"
-  },
+  }
 ];
 
 export const ABOUT_CONTENT = {
