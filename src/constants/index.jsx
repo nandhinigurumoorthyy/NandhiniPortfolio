@@ -1,6 +1,6 @@
 import restaurant from "../assets/restaurant.jpg";
 import movie from "../assets/movie.jpg";
-import backend from "../assets/backend.jpg";
+import blog from "../assets/blog.jpg";
 import parlour from "../assets/parlour.PNG";
 
 
@@ -36,11 +36,11 @@ export const PROJECTS = [
     demo: "https://restaurant-reservation-ui.netlify.app/"
   },
   {
-    name: "Password Reset System",
-    description: "Secure Password Reset System that enables users to reset their passwords via email verification, built with Node.js, Express.js, and MongoDB.",
-    image: backend,
-    link: "https://github.com/nandhinigurumoorthyy/Password-reset-flow-client.git",
-    demo: "https://password-reset-flow-client-ui.netlify.app/"
+    name: "Blog Platform",
+    description: "A full-stack blogging platform with user authentication, blog CRUD operations, and a responsive UI built using React, Tailwind CSS, Node.js, Express.js, and MongoDB.",
+    image: blog,
+    link: "https://github.com/nandhinigurumoorthyy/MERN-Blog-Client.git",
+    demo: "https://mern-blogcom-client.netlify.app/"
   },
   {
     name: "Movie Search App",
