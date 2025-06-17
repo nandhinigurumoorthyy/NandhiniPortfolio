@@ -2,6 +2,7 @@ import restaurant from "../assets/restaurant.jpg";
 import movie from "../assets/movie.jpg";
 import blog from "../assets/blog.jpg";
 import parlour from "../assets/parlour.PNG";
+import secure from "../assets/secure.jpg";
 
 
 export const LINKS = [
@@ -21,6 +22,13 @@ export const HERO_CONTENT = {
 };
 
 export const PROJECTS = [
+   {
+    name: "Online Restaurant Booking",
+    description: "A full-stack Restaurant Booking System that enables users to browse restaurants, make reservations, and manage bookings with React, Tailwind CSS, Node.js, and MongoDB.",
+    image: restaurant,
+    link: "https://github.com/nandhinigurumoorthyy/Restaurant_Reservation_frontend.git",
+    demo: "https://restaurant-reservation-ui.netlify.app/"
+  },
   {
   name: "Beauty Parlour Services",
   description: "A modern full-stack beauty services booking platform where users can explore grooming options, add them to cart, and schedule appointments seamlessly using React, Tailwind CSS, Node.js, and MongoDB.",
@@ -29,19 +37,19 @@ export const PROJECTS = [
   demo: "https://glam-on-go-beauty-services-mern-app.netlify.app/"
 },
   {
-    name: "Online Restaurant Booking",
-    description: "A full-stack Restaurant Booking System that enables users to browse restaurants, make reservations, and manage bookings with React, Tailwind CSS, Node.js, and MongoDB.",
-    image: restaurant,
-    link: "https://github.com/nandhinigurumoorthyy/Restaurant_Reservation_frontend.git",
-    demo: "https://restaurant-reservation-ui.netlify.app/"
-  },
-  {
     name: "Blog Platform",
     description: "A full-stack blogging platform with user authentication, blog CRUD operations, and a responsive UI built using React, Tailwind CSS, Node.js, Express.js, and MongoDB.",
     image: blog,
     link: "https://github.com/nandhinigurumoorthyy/MERN-Blog-Client.git",
     demo: "https://mern-blogcom-client.netlify.app/"
   },
+ {
+  name: "Secure Password Reset System",
+  description: "A secure password reset system with email verification, token-based authentication, and encrypted password storage using Node.js, Express.js, and MongoDB.",
+  image: secure,
+  link: "https://github.com/nandhinigurumoorthyy/Password-reset-flow-client.git",
+  demo: "https://password-reset-flow-client-ui.netlify.app/"
+},
   {
     name: "Movie Search App",
     description:
