@@ -26,7 +26,7 @@ export const PROJECTS = [
   {
     name: "Online Restaurant Booking",
     description:
-      "A dynamic MERN stack web application where users can explore restaurants, book tables, and manage their reservations. Features complete CRUD operations for bookings, intuitive UI/UX, and seamless integration between frontend and backend.",
+      "A full-stack MERN application that allows users to browse restaurants, make reservations, and manage their bookings. Includes full CRUD functionality for reservations and booking management with a user-friendly interface.",
     image: restaurant,
     link: "https://github.com/nandhinigurumoorthyy/Restaurant_Reservation_frontend.git",
     demo: "https://restaurant-reservation-ui.netlify.app/",
@@ -34,7 +34,7 @@ export const PROJECTS = [
   {
     name: "Beauty Parlour Services",
     description:
-      "A modern full-stack web application that allows users to explore beauty and grooming services, add them to a cart, and seamlessly schedule appointments. Built with React, Tailwind CSS, Node.js, Express.js, and MongoDB for a smooth and efficient booking experience.",
+      "A full-stack MERN app for booking beauty and grooming services with personalized cart and appointment scheduling, featuring full CRUD operations and a responsive UI.",
     image: parlour,
     link: "https://github.com/nandhinigurumoorthyy/Beauty-Services-MERN-Client",
     demo: "https://glam-on-go-beauty-services-mern-app.netlify.app/",
@@ -42,7 +42,7 @@ export const PROJECTS = [
   {
     name: "Blog Platform",
     description:
-      "A responsive MERN stack application with secure JWT-based authentication, allowing users to perform full CRUD operations on blog posts. Users can create, update, delete, and view all blogs through a clean, user-friendly interface.",
+      "Blogging platform with JWT authentication, full CRUD on blogs, and responsive UI using React, Node.js, Express, and MongoDB.",
     image: blog,
     link: "https://github.com/nandhinigurumoorthyy/MERN-Blog-Client.git",
     demo: "https://mern-blogcom-client.netlify.app/",
@@ -50,7 +50,7 @@ export const PROJECTS = [
   {
     name: "Secure Password Reset System",
     description:
-      "Implements a complete password reset workflow with email verification, token-based authentication, and encrypted password storage. Built with Node.js, Express.js, and MongoDB to ensure robust security and data protection.",
+      "A secure password reset system with email verification, token-based authentication, and encrypted password storage using Node.js, Express.js, and MongoDB.",
     image: secure,
     link: "https://github.com/nandhinigurumoorthyy/Password-reset-flow-client.git",
     demo: "https://password-reset-flow-client-ui.netlify.app/",
@@ -58,7 +58,7 @@ export const PROJECTS = [
   {
     name: "Movie Search App",
     description:
-      "A responsive React application that allows users to search for movies by title, view detailed information, and seamlessly navigate results. Built with React, React Router, Axios, Tailwind CSS, and powered by the OMDb API.",
+      "A Movie Search App that lets users find movies by title, view details, and navigate results using React, React Router, Axios, Tailwind CSS, and the OMDb API.",
     image: movie,
     link: "https://github.com/nandhinigurumoorthyy/Movies-Search-App.git",
     demo: "https://movies-search-app-omdb-api.netlify.app/",

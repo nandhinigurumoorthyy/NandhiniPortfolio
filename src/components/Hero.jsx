@@ -71,18 +71,18 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            className="w-full md:w-1/2 p-8"
+            className="w-full md:w-1/2 p-8 justify-center items-center flex"
             initial="hidden"
             animate="visible"
             variants={imageVariants}
-          >
+          ><div className="justify-center items-center flex">
             <img
               src={profile}
               alt="Profile"
               width={400}
               height={650}
               className="rounded-3xl"
-            />
+            /></div>
           </motion.div>
         </div>
       </section>
