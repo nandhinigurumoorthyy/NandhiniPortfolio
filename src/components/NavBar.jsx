@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg">
-        <div className="text-white font-semibold text-lg uppercase">
+        <div className="text-slate-100 font-semibold text-lg uppercase">
           <a href="/">Nandhini</a>
         </div>
 
@@ -20,7 +20,7 @@ const NavBar = () => {
             <a
               href={link.href}
               key={index}
-              className="text-white hover:text-stone-400 transition duration-300"
+              className="text-slate-100 hover:text-stone-400 transition duration-300"
             >
               {link.label}
             </a>
@@ -30,7 +30,7 @@ const NavBar = () => {
         <div className="md:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-white focus:outline-none"
+            className="text-slate-100 focus:outline-none"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
           >
             {menuOpen ? (
@@ -48,7 +48,7 @@ const NavBar = () => {
             <a
               href={link.href}
               key={index}
-              className="text-white hover:text-stone-400 transition duration-300"
+              className="text-slate-100 hover:text-stone-400 transition duration-300"
               onClick={handleLinkClick}
             >
               {link.label}

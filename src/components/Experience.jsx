@@ -60,7 +60,7 @@ p-4"
                     className="max-w-3xl backdrop-blur-3xl
 p-4 bg-stone-600/10 rounded-lg"
                   >
-                    <h2 className="text-xl mb-2">{experience.title}</h2>
+                    <h2 className="text-xl mb-2 font-semibold">{experience.title}</h2>
                     <p className="mb-4 text-sm italic">{experience.location}</p>
 
                     <ul

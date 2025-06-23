@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { clipPath } from "framer-motion/client";
 import { HERO_CONTENT } from "../constants";
-import profile from "../assets/1.jpg";
+import profile from "../assets/5.JPG";
 
 const textVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <>
       <section>
-        <div className="relative z-10 min-h-screen flex flex-wrap flex-col md:flex-row items-center justify-center text-white">
+        <div className="relative z-10 min-h-screen flex flex-wrap flex-col md:flex-row items-center justify-center text-slate-100">
           <motion.div
             className="w-full md:w-1/2 p-8"
             initial="hidden"
@@ -45,21 +45,21 @@ const Hero = () => {
             </motion.h1>
 
             <motion.p
-              className="text-xl md:text-2xl lg:text-3xl mb-4"
+              className="text-xl md:text-2xl lg:text-2xl mb-4"
               variants={textVariants}
             >
               {HERO_CONTENT.introduction}
             </motion.p>
 
             <motion.p
-              className="text-xl md:text-2xl lg:text-3xl"
+              className="text-xl md:text-2xl lg:text-2xl"
               variants={textVariants}
             >
               {HERO_CONTENT.description}
             </motion.p>
 
             <motion.a
-              className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl "
+              className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl"
               href={HERO_CONTENT.resumeLink}
               download
               rel="noopener noreferrer"

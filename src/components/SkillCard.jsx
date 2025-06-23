@@ -8,7 +8,7 @@ const SkillCard = ({ imgSrc, label, desc }) => {
             </figure>
 
             <div>
-                <h3 className="text-white font-medium">{label}</h3>
+                <h3 className="text-slate-100 font-medium">{label}</h3>
                 <p className="text-zinc-400 text-sm">{desc}</p>
             </div>
         </div>
